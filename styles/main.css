@@ -1,0 +1,15 @@
+body {
+  background-color: #990f4b;
+  font-weight: bold;
+  color: #eecada;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.hidden {
+  display: none;
+}

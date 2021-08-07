@@ -228,7 +228,7 @@ $(document).ready(function () {
     else if (b1 === "") {
       $("#b1").text(ai);
       turn = 0;
-    } else if (c02 === "") {
+    } else if (b3 === "") {
       $("#b3").text(ai);
       turn = 0;
     } else if (b7 === "") {

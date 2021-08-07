@@ -11,7 +11,6 @@ h1 {
 }
 
 #container {
-  display: flex;
   font-size: 48px;
   text-align: center;
   margin: 0 auto;
@@ -24,6 +23,24 @@ h1 {
   display: none;
 }
 
+/* first screen */
+
+#choice {
+  font-size: 60px;
+  color: #f3e8ee;
+}
+
+a {
+  text-decoration: none;
+}
+
+#x,
+#o {
+  color: #ff5e5b;
+  font-weight: bold;
+}
+
+/*board*/
 #board {
   position: absolute;
   width: 420px;
@@ -41,4 +58,15 @@ td {
   color: #f3e8ee;
   font-weight: bold;
   text-align: center;
+}
+/*final screen*/
+#winner {
+  font-size: 55px;
+  color: #f3e8ee;
+  margin-top: -15px;
+}
+
+#new-game {
+  font-size: 55px;
+  color: #ff5e5b;
 }

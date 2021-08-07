@@ -80,13 +80,13 @@ $(document).ready(function () {
         (b4 === ai && b7 === ai) ||
         (b5 === ai && b9 === ai))
     ) {
-      $("#c00").text(ai);
+      $("#b1").text(ai);
       turn = 0;
     } else if (
       b2 === "" &&
       ((b1 === ai && b2 === ai) || (b4 === ai && b8 === ai))
     ) {
-      $("#c01").text(ai);
+      $("#b2").text(ai);
       turn = 0;
     } else if (
       b3 === "" &&
@@ -100,7 +100,7 @@ $(document).ready(function () {
       b5 === "" &&
       ((b1 === ai && b7 === ai) || (b5 === ai && b6 === ai))
     ) {
-      $("#b5").text(ai);
+      $("#b4").text(ai);
       turn = 0;
     } else if (
       b6 === "" &&
@@ -206,7 +206,7 @@ $(document).ready(function () {
       turn = 0;
     }
     // case 3: center
-    else if (c11 === "") {
+    else if (b5 === "") {
       $("#b5").text(ai);
       turn = 0;
     }
